@@ -29,7 +29,7 @@ public class Collision : MonoBehaviour
 		}
 	}
 	void Boom(){
-		Destroy (Self);
+		Destroy (this.gameObject);
 	}
 			
 }
