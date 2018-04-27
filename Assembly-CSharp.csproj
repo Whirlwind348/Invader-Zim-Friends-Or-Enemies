@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E8830C3C-270E-580D-5646-FBA27BC2AF47}</ProjectGuid>
+    <ProjectGuid>{FCD98598-09B3-E42A-8490-8DFDF245773D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -51,10 +51,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\2D\Control.cs" />
-     <Compile Include="Assets\2D\Jump.cs" />
-     <Compile Include="Assets\2D\Movement.cs" />
-     <Compile Include="Assets\2D\PlayerMover.cs" />
+     <Compile Include="Assets\Scripts\AnimationFunctions.cs" />
+     <Compile Include="Assets\Scripts\Collision.cs" />
+     <Compile Include="Assets\Scripts\Control.cs" />
+     <Compile Include="Assets\Scripts\Default.cs" />
+     <Compile Include="Assets\Scripts\Jump.cs" />
+     <Compile Include="Assets\Scripts\Movement.cs" />
+     <Compile Include="Assets\Scripts\PlayerMover.cs" />
+     <Compile Include="Assets\Scripts\Projecile.cs" />
+     <Compile Include="Assets\Scripts\Step.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
